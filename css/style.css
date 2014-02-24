@@ -1087,7 +1087,7 @@
 
 	#intro {
 		background: url('images/overlay.png'), url('../images/bar4.png');
-		background-size: contain;
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -1099,7 +1099,7 @@
 
 	#one {
 		background: url('images/overlay.png'), url('../images/surf2.png');
-		background-size: contain;
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
